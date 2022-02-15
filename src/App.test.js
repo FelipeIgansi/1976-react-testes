@@ -29,7 +29,7 @@ describe("Componente principal", () => {
 
       const novoSaldo = calcularNovoSaldo(valores, 0);
 
-      expect(novoSaldo).toBe(50);
+      expect(novoSaldo).toBe(50); 
     });
 
     it("de deposito, o valor vai aumentar", () => {
